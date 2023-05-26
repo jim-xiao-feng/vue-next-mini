@@ -1,0 +1,23 @@
+{
+  "name": "vue-next-mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=3"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
