@@ -1,6 +1,19 @@
 # VUE-NEXT-MINI
 实现VUE3 核心功能
 
+### 开发
+```bash
+git clone https://github.com/jim-xiao-feng/vue-next-mini.git
+cd vue-next-mini
+pnpm install
+pnpm dev
+```
+
+### 打包
+```bash
+pnpm build
+```
+
 ### 模块
 1. reactivity，响应式模块
 2. runtime-core，运行时核心模块
